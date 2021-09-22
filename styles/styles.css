@@ -10,6 +10,36 @@ header {
     padding-top: 10px;
 }
 
+.menu-perfil {
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 19px;
+}
+
+ul li a {
+    color: #3a3a3a;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    font-weight: bolder;
+
+}
+
+ul li a:hover {
+    color: #be6295;
+}
+
+.cor-um:hover {
+    color: rgb(243, 243, 72);
+}
+
 .img-perfil {
     border-radius: 50%;
     border: 2px solid #3a3a3a;
@@ -33,12 +63,6 @@ header {
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-    color: #920101;
-    font-weight: bolder;
-}
-
 .post-title {
     font-size: 16px;
     font-style: italic;
@@ -59,6 +83,11 @@ a {
     margin-bottom: 15px;
 }
 
+.cor-dois {
+    color: #5f8de2;
+    font-weight: bolder;
+}
+
 .post-content {
     margin: 0;
     margin-bottom: 15px;
@@ -69,4 +98,8 @@ a {
 .contact-list {
     list-style-type: none;
     padding: 5px;
+}
+
+.cor-tr:hover {
+    color: darkred;
 }
