@@ -6,15 +6,17 @@ body {
     padding: 5px;
 }
 
-header {
-    padding-top: 10px;
-}
-
 .menu-perfil {
+    background-color: rgba(0,0,0,0.4);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     display: flex;
     text-align: center;
+    align-items: center;
     margin-bottom: 20px;
     cursor: pointer;
+    margin-top: 0%;
+    height: 50px;
 }
 
 ul li {
@@ -25,7 +27,7 @@ ul li {
 }
 
 ul li a {
-    color: #3a3a3a;
+    color: #ffffff;
     text-decoration: none;
     transition: 0.2s ease-in-out;
     font-weight: bolder;
@@ -37,7 +39,7 @@ ul li a:hover {
 }
 
 .cor-um:hover {
-    color: rgb(243, 243, 72);
+    color: rgb(35, 245, 157);
 }
 
 .img-perfil {
@@ -98,6 +100,10 @@ ul li a:hover {
 .contact-list {
     list-style-type: none;
     padding: 5px;
+}
+
+.cor-tr {
+    color: #3a3a3a;
 }
 
 .cor-tr:hover {
