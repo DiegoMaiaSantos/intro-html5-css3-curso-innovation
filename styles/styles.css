@@ -109,3 +109,8 @@ ul li a:hover {
 .cor-tr:hover {
     color: darkred;
 }
+
+.copy-p {
+    text-align: center;
+    color: #ffffff;
+}
